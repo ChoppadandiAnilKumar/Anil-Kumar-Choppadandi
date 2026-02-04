@@ -1,78 +1,66 @@
-### 🖥️ System Activity Log
-```bash
-### Phase 2: The Script (`update_log.py`)
+### 🚀 Career CI/CD Pipeline
 
-Create a file in your repo named `update_log.py`. This script fetches your public events and formats them.
-
-```python
-import requests
-import datetime
-import os
-import re
-
-# Your GitHub Username
-USERNAME = "YOUR_USERNAME_HERE"
-
-def fetch_activity():
-    url = f"https://api.github.com/users/{USERNAME}/events/public"
-    response = requests.get(url)
-    if response.status_code != 200:
-        return []
-    return response.json()
-
-def format_log(event):
-    # Format timestamp to look like a server log
-    created_at = event['created_at']
-    dt = datetime.datetime.strptime(created_at, "%Y-%m-%dT%H:%M:%SZ")
-    timestamp = dt.strftime("%Y-%m-%d %H:%M:%S")
-
-    repo_name = event['repo']['name']
-    event_type = event['type']
+```mermaid
+graph LR
+    %% Define Nodes
+    Source(Source: Learning) --> Build(Build: Projects)
+    Build --> Test{Certifications}
     
-    # Custom Log Levels based on event type
-    if event_type == "PushEvent":
-        log_level = "[INFO]"
-        commit_msg = event['payload']['commits'][0]['message'].split('\n')[0]
-        # Truncate long messages
-        if len(commit_msg) > 40: commit_msg = commit_msg[:40] + "..."
-        message = f"Pushed to {repo_name}: \"{commit_msg}\""
-    elif event_type == "PullRequestEvent":
-        action = event['payload']['action']
-        log_level = "[SUCCESS]" if action == "closed" else "[WARN]"
-        message = f"PR {action} in {repo_name}"
-    elif event_type == "CreateEvent":
-        log_level = "[SYSTEM]"
-        ref_type = event['payload']['ref_type']
-        message = f"Created new {ref_type} in {repo_name}"
-    else:
-        return None # Skip other events to keep it clean
-
-    return f"{log_level}  {timestamp}  {message}"
-
-def update_readme(logs):
-    # Join the last 5 logs
-    log_content = "\n".join(logs[:5])
+    %% Decision Points
+    Test -- Passed --> Deploy[Deploy: Experience]
+    Test -- Failed --> Debug(Debug: Re-Learn)
+    Debug --> Build
     
-    with open("README.md", "r") as file:
-        readme = file.read()
-
-    # Regex to find the block between the tags
-    pattern = r"(.*?)"
-    replacement = f"\n{log_content}\n"
+    %% Deploy Stage splits into roles
+    Deploy --> Ops[Role: SysAdmin]
+    Deploy --> DevOps[Role: DevOps Engineer]
     
-    new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
+    %% Current Status
+    DevOps --> Monitor((Monitor: Current State))
 
-    with open("README.md", "w") as file:
-        file.write(new_readme)
+    %% Styling to make it look cool (Neon Theme)
+    style Source fill:#1f2020,stroke:#64ffda,stroke-width:2px,color:#fff
+    style Build fill:#1f2020,stroke:#64ffda,stroke-width:2px,color:#fff
+    style Test fill:#1f2020,stroke:#e06c75,stroke-width:2px,color:#fff
+    style Debug fill:#1f2020,stroke:#e06c75,stroke-dasharray: 5 5,color:#fff
+    style Deploy fill:#1f2020,stroke:#c678dd,stroke-width:2px,color:#fff
+    style DevOps fill:#64ffda,stroke:#333,stroke-width:2px,color:#000
+    style Monitor fill:#e06c75,stroke:#333,stroke-width:4px,color:#fff
 
-if __name__ == "__main__":
-    events = fetch_activity()
-    formatted_logs = []
+### Option 2: The "Tech Stack" Flowchart (Top Down)
+This one is great for showing *how* you work. It connects your tools together in a logical flow.
+
+```markdown
+### 🛠️ My DevOps Workflow
+
+```mermaid
+flowchart TD
+    %% Nodes
+    Dev[Developer] -->|Git Push| Repo[GitHub / GitLab]
+    Repo -->|Webhook| CI[CI Server: Jenkins/Actions]
     
-    for event in events:
-        log = format_log(event)
-        if log:
-            formatted_logs.append(log)
-            
-    if formatted_logs:
-        update_readme(formatted_logs)
+    subgraph CI_Process [Continuous Integration]
+    CI -->|Build| Docker[Docker Image]
+    CI -->|Test| Sonar[SonarQube]
+    end
+    
+    subgraph CD_Process [Continuous Deployment]
+    Docker -->|Push| Registry[Docker Hub/ECR]
+    Registry -->|Pull| K8s[Kubernetes Cluster]
+    end
+    
+    K8s -->|Monitor| Grafana[Grafana / Prometheus]
+    Grafana -->|Alert| Dev
+    
+    %% Clickable Links (Optional)
+    click Repo "[https://github.com/yourusername?tab=repositories](https://github.com/yourusername?tab=repositories)" "See my Repos"
+    click K8s "[https://kubernetes.io/](https://kubernetes.io/)" "I love K8s"
+    
+    %% Styling
+    classDef plain fill:#fff,stroke:#333,stroke-width:1px,color:#000;
+    classDef k8s fill:#326ce5,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef ci fill:#e06c75,stroke:#333,stroke-width:2px,color:#fff;
+    
+    class K8s k8s;
+    class CI,Docker,Sonar ci;
+    class Dev,Repo,Registry,Grafana plain;
