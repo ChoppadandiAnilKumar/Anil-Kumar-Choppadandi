@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=Anil%20Kumar&fontSize=70&animation=fadeIn" width="100%" />
 
   <h3>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=45A1FF&center=true&vCenter=true&width=550&lines=Azure+Cloud+Specialist;AI+Powered+DevOps+Engineer;Kubernetes+%26+Automation+Expert" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=45A1FF&center=true&vCenter=true&width=550&lines=Azure+Cloud+Specialist;AI+Powered+DevOps+Engineer;Kubernetes+%26+Automation+Expert;Building+arksglobalasia.cloud" alt="Typing SVG" />
   </h3>
 
   <p>
@@ -20,39 +20,39 @@
 
 ---
 
-### 🛠️ Advanced Infrastructure Stack
+### 🛠️ Infrastructure & Automation Stack
 <div align="center">
   <img src="https://skillicons.dev/icons?i=azure,kubernetes,docker,jenkins,linux,cloudflare,nginx,git,github,sonarqube,nextjs,tailwind,ts,py&perline=7" />
 </div>
 
 ---
 
-### 📊 Real-Time Operations Metrics
+### 📊 Real-Time Cluster Metrics (GitHub Stats)
 <div align="center">
   <table border="0">
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=ChoppadandiAnilKumar&show_icons=true&theme=tokyonight&count_private=true&border_radius=10" width="100%" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ChoppadandiAnilKumar&show_icons=true&theme=tokyonight&count_private=true&border_radius=10&sanitize=true" width="100%" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChoppadandiAnilKumar&layout=compact&theme=tokyonight&border_radius=10" width="100%" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ChoppadandiAnilKumar&layout=compact&theme=tokyonight&border_radius=10&sanitize=true" width="100%" />
       </td>
     </tr>
   </table>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChoppadandiAnilKumar&theme=tokyonight&border_radius=10" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChoppadandiAnilKumar&theme=tokyonight&border_radius=10&sanitize=true" width="100%" />
 </div>
 
 ---
 
-### 🏆 Achievement Showcase
+### 🏆 Engineering Trophies
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ChoppadandiAnilKumar&theme=tokyonight&no-bg=true&no-frame=true&column=7" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ChoppadandiAnilKumar&theme=tokyonight&no-bg=true&no-frame=true&column=7&margin-w=15" width="100%" />
 </div>
 
 ---
 
-### 📁 Top Contributions & Activity
+### 📁 Activity & Contributions
 <div align="center">
   <img src="https://github-contributor-stats.vercel.app/api?username=ChoppadandiAnilKumar&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" width="100%" />
 </div>
@@ -68,5 +68,5 @@
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/render?type=rect&color=auto&height=30&section=footer" width="100%" />
-  <p>🛡️ <b>Profile Security Scanned by SonarQube</b> | Visits: <img src="https://visitcount.itsvg.in/api?id=ChoppadandiAnilKumar&icon=0&color=0" align="center" /></p>
+  <p>🛡️ <b>Secured by DevSecOps Principles</b> | Profile Visits: <img src="https://visitcount.itsvg.in/api?id=ChoppadandiAnilKumar&icon=0&color=0" align="center" /></p>
 </div>
