@@ -18,7 +18,7 @@ graph LR
     %% Current Status
     DevOps --> Monitor((Monitor: Current State))
 
-    %% Styling to make it look cool (Neon Theme)
+    %% Styling
     style Source fill:#1f2020,stroke:#64ffda,stroke-width:2px,color:#fff
     style Build fill:#1f2020,stroke:#64ffda,stroke-width:2px,color:#fff
     style Test fill:#1f2020,stroke:#e06c75,stroke-width:2px,color:#fff
@@ -27,10 +27,6 @@ graph LR
     style DevOps fill:#64ffda,stroke:#333,stroke-width:2px,color:#000
     style Monitor fill:#e06c75,stroke:#333,stroke-width:4px,color:#fff
 
-### Option 2: The "Tech Stack" Flowchart (Top Down)
-This one is great for showing *how* you work. It connects your tools together in a logical flow.
-
-```markdown
 ### 🛠️ My DevOps Workflow
 
 ```mermaid
@@ -52,10 +48,6 @@ flowchart TD
     K8s -->|Monitor| Grafana[Grafana / Prometheus]
     Grafana -->|Alert| Dev
     
-    %% Clickable Links (Optional)
-    click Repo "[https://github.com/yourusername?tab=repositories](https://github.com/yourusername?tab=repositories)" "See my Repos"
-    click K8s "[https://kubernetes.io/](https://kubernetes.io/)" "I love K8s"
-    
     %% Styling
     classDef plain fill:#fff,stroke:#333,stroke-width:1px,color:#000;
     classDef k8s fill:#326ce5,stroke:#fff,stroke-width:2px,color:#fff;
@@ -64,3 +56,5 @@ flowchart TD
     class K8s k8s;
     class CI,Docker,Sonar ci;
     class Dev,Repo,Registry,Grafana plain;
+
+
