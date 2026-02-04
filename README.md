@@ -1,54 +1,69 @@
 <div align="center">
-  <h1>Hi, I'm <a href="https://yourwebsite.com">Your Name</a> 👋</h1>
+  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=Anil%20Kumar&fontSize=70&animation=fadeIn" width="100%" />
+
   <p align="center">
-    <strong>Full Stack Developer | Tech Enthusiast | Open Source Contributor</strong>
+    <a href="https://arksglobalasia.cloud"><b>Portfolio Website</b></a> • 
+    <a href="https://linkedin.com/in/yourprofile"><b>LinkedIn</b></a> • 
+    <a href="mailto:your@email.com"><b>Contact Me</b></a>
   </p>
 
-  <p>
-    <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="https://twitter.com/yourusername"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=twitter&logoColor=white" alt="Twitter"></a>
-    <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email"></a>
-  </p>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=45A1FF&center=true&vCenter=true&width=435&lines=DevOps+Engineer;Kubernetes+Architect;Next.js+Developer;Automation+Specialist" alt="Typing SVG" />
+  </a>
 </div>
+
+<br />
+
+### 🛠️ Specialized Ecosystem
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,jenkins,linux,aws,gcp,azure,terraform,ansible,n8n,nextjs,tailwind" />
+</div>
+
+<br />
 
 ---
 
-### 🛠️ Tech Stack
-
+### 📊 Real-Time Infrastructure Insights
 <table align="center">
   <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=js" width="40" height="40" alt="JS" />
-      <br>JavaScript
+    <td width="50%">
+      <img align="left" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&count_private=true" width="100%" />
     </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=react" width="40" height="40" alt="React" />
-      <br>React
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nodejs" width="40" height="40" alt="Node" />
-      <br>Node.js
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python" />
-      <br>Python
+    <td width="50%">
+      <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&langs_count=8" width="100%" />
     </td>
   </tr>
 </table>
 
----
-
-### 📊 My Stats
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" alt="Your Stats" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" alt="Your Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" width="100%" />
 </p>
 
 ---
 
-### 🔭 Currently Working On
-- 🔭 I’m currently working on **[Project Name]**
-- 🌱 I’m currently learning **Advanced System Design**
-- 💬 Ask me about **React, UI/UX, or Sci-Fi movies**
+### 🔭 Current Architecture & Learning
+<div align="center">
+  <table border="0">
+    <tr>
+      <td>
+        <ul>
+          <li>🚀 <b>Optimizing:</b> Kubernetes clusters on local Windows/Docker environments.</li>
+          <li>🤖 <b>Automating:</b> CI/CD pipelines with Jenkins and n8n workflows.</li>
+          <li>🌐 <b>Deploying:</b> Personal projects to <code>arksglobalasia.cloud</code>.</li>
+        </ul>
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YOUR_USERNAME&theme=tokyonight" width="400px" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+### 🐍 My GitHub Contribution Graph
+![](https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-bg=true&no-frame=true&column=7)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
