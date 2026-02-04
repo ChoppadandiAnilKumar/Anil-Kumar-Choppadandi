@@ -1,60 +1,54 @@
-### 🚀 Career CI/CD Pipeline
+<div align="center">
+  <h1>Hi, I'm <a href="https://yourwebsite.com">Your Name</a> 👋</h1>
+  <p align="center">
+    <strong>Full Stack Developer | Tech Enthusiast | Open Source Contributor</strong>
+  </p>
 
-```mermaid
-graph LR
-    %% Define Nodes
-    Source(Source: Learning) --> Build(Build: Projects)
-    Build --> Test{Certifications}
-    
-    %% Decision Points
-    Test -- Passed --> Deploy[Deploy: Experience]
-    Test -- Failed --> Debug(Debug: Re-Learn)
-    Debug --> Build
-    
-    %% Deploy Stage splits into roles
-    Deploy --> Ops[Role: SysAdmin]
-    Deploy --> DevOps[Role: DevOps Engineer]
-    
-    %% Current Status
-    DevOps --> Monitor((Monitor: Current State))
+  <p>
+    <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="https://twitter.com/yourusername"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=twitter&logoColor=white" alt="Twitter"></a>
+    <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email"></a>
+  </p>
+</div>
 
-    %% Styling
-    style Source fill:#1f2020,stroke:#64ffda,stroke-width:2px,color:#fff
-    style Build fill:#1f2020,stroke:#64ffda,stroke-width:2px,color:#fff
-    style Test fill:#1f2020,stroke:#e06c75,stroke-width:2px,color:#fff
-    style Debug fill:#1f2020,stroke:#e06c75,stroke-dasharray: 5 5,color:#fff
-    style Deploy fill:#1f2020,stroke:#c678dd,stroke-width:2px,color:#fff
-    style DevOps fill:#64ffda,stroke:#333,stroke-width:2px,color:#000
-    style Monitor fill:#e06c75,stroke:#333,stroke-width:4px,color:#fff
+---
 
-### 🛠️ My DevOps Workflow
+### 🛠️ Tech Stack
 
-```mermaid
-flowchart TD
-    %% Nodes
-    Dev[Developer] -->|Git Push| Repo[GitHub / GitLab]
-    Repo -->|Webhook| CI[CI Server: Jenkins/Actions]
-    
-    subgraph CI_Process [Continuous Integration]
-    CI -->|Build| Docker[Docker Image]
-    CI -->|Test| Sonar[SonarQube]
-    end
-    
-    subgraph CD_Process [Continuous Deployment]
-    Docker -->|Push| Registry[Docker Hub/ECR]
-    Registry -->|Pull| K8s[Kubernetes Cluster]
-    end
-    
-    K8s -->|Monitor| Grafana[Grafana / Prometheus]
-    Grafana -->|Alert| Dev
-    
-    %% Styling
-    classDef plain fill:#fff,stroke:#333,stroke-width:1px,color:#000;
-    classDef k8s fill:#326ce5,stroke:#fff,stroke-width:2px,color:#fff;
-    classDef ci fill:#e06c75,stroke:#333,stroke-width:2px,color:#fff;
-    
-    class K8s k8s;
-    class CI,Docker,Sonar ci;
-    class Dev,Repo,Registry,Grafana plain;
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=js" width="40" height="40" alt="JS" />
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=react" width="40" height="40" alt="React" />
+      <br>React
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=nodejs" width="40" height="40" alt="Node" />
+      <br>Node.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python" />
+      <br>Python
+    </td>
+  </tr>
+</table>
 
+---
 
+### 📊 My Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" alt="Your Stats" />
+  <br>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" alt="Your Streak" />
+</p>
+
+---
+
+### 🔭 Currently Working On
+- 🔭 I’m currently working on **[Project Name]**
+- 🌱 I’m currently learning **Advanced System Design**
+- 💬 Ask me about **React, UI/UX, or Sci-Fi movies**
