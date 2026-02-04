@@ -26,22 +26,22 @@
   <table border="0">
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=REPLACE_ME&show_icons=true&theme=tokyonight&rank_icon=github&border_radius=10" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=ChoppadandiAnilKumar&show_icons=true&theme=tokyonight&rank_icon=github&border_radius=10" width="100%" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=REPLACE_ME&layout=compact&theme=tokyonight&border_radius=10" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChoppadandiAnilKumar&layout=compact&theme=tokyonight&border_radius=10" width="100%" />
       </td>
     </tr>
   </table>
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=REPLACE_ME&theme=tokyonight&border_radius=10" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChoppadandiAnilKumar&theme=tokyonight&border_radius=10" width="100%" />
 </div>
 
 ---
 
 ### 🏆 Achievements & Trophies
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=REPLACE_ME&theme=tokyonight&no-bg=true&no-frame=true&column=7" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ChoppadandiAnilKumar&theme=tokyonight&no-bg=true&no-frame=true&column=7" width="100%" />
 </div>
 
 ---
@@ -51,10 +51,10 @@
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=REPLACE_ME&repo=REPLACE_WITH_YOUR_REPO_NAME&theme=tokyonight" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ChoppadandiAnilKumar&repo=REPLACE_WITH_YOUR_REPO_NAME&theme=tokyonight" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=REPLACE_ME&repo=REPLACE_WITH_YOUR_REPO_NAME&theme=tokyonight" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ChoppadandiAnilKumar&repo=REPLACE_WITH_YOUR_REPO_NAME&theme=tokyonight" />
       </td>
     </tr>
   </table>
@@ -64,5 +64,5 @@
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/render?type=rect&color=gradient&height=50&section=footer" width="100%" />
-  <p>⭐️ From <a href="https://github.com/REPLACE_ME">REPLACE_ME</a></p>
+  <p>⭐️ From <a href="https://github.com/ChoppadandiAnilKumar">ChoppadandiAnilKumar</a></p>
 </div>
