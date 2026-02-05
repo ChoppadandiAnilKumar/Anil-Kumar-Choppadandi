@@ -13,15 +13,13 @@
    </p>
  
    <p>
--    <a href="https://linkedin.com/in/anil-kumar-b03722221"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
--    <a href="https://instagram.com/anilkumar_ofcl"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" /></a>
--    <a href="https://medium.com/@https://dev.to/anil_kumar_ff4f6ad3549983"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
-+    <a href="https://linkedin.com/in/anil-kumar-b03722221"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-+    <a href="https://instagram.com/anilkumar_ofcl"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+    <a href="https://linkedin.com/in/anil-kumar-b03722221"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://medium.com/@https://dev.to/anil_kumar_ff4f6ad3549983"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
+    <a href="https://instagram.com/anilkumar_ofcl"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
      <a href="mailto:anilsa7989@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-+    <a href="https://github.com/ChoppadandiAnilKumar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
-+  </p>
-+
+    <a href="https://github.com/ChoppadandiAnilKumar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  </p>
+
 +  <p>
 +    <img src="https://komarev.com/ghpvc/?username=ChoppadandiAnilKumar&label=Profile%20views&color=0ea5e9&style=flat" alt="profile views" />
 +    <img src="https://img.shields.io/github/followers/ChoppadandiAnilKumar?style=flat&color=22c55e&label=Followers" alt="followers" />
