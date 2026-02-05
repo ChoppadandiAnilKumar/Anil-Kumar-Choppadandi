@@ -1,8 +1,3 @@
-diff --git a/README.md b/README.md
-index 4cf334171cab878ad0911b544c6a9e80d2cbd9f3..dabc4c2a26a704cbcf1bb498ad26108983c21b6a 100644
---- a/README.md
-+++ b/README.md
-@@ -1,72 +1,127 @@
  <div align="center">
 -  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=Anil%20Kumar&fontSize=70&animation=fadeIn" width="100%" />
 -
